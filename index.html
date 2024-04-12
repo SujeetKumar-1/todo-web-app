@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    </rel>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Work Diary</a></h1>
+            <h2>Organize Your Daily Task With To-Do Diary</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="Ptitle">
+        <h1>Organize Your Daily Task With To-Do Diary</h1>
+    </div>
+
+    <div class="box-container">
+        <div class="box-form">
+            <div class="left">
+                <h2>Add Today's Task</h2>
+                <form>
+                    <h3>Title</h3>
+                    <input type="text" id="act" placeholder="Enter Activity Name" required>
+                    <h3>Date</h3>
+                    <input type="date" id="date" placeholder="dd-mm-yyyy" required>
+                    <h3>Description</h3>
+                    <input type="text" id="dec" placeholder="e.g. study for the test." required>
+                    
+                    <h3>Important</h3>
+                    <select name="Important" id="imp" required>
+                        <option>select..</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select><br>
+                    <div class="btn">
+                        <button type="submit">Add</button>
+                    </div>
+                </form>
+            </div>
+            
+            
+            <div class="right">
+                <h2>Task List</h2>
+                <ol class="Pending">
+                    <h3>Pending</h3>
+                </ol>
+    
+    
+                <ol class="Impt">
+                    <h3>Important Pendings</h3>
+                </ol>
+    
+                <ol class="Completed">
+                    <h3>Completed</h3>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <h3>2024 Work-Diary Plateform. All rights reserved.</h3>
+    </footer>
+
+    <script src="jscript.js"></script>
+</body>
+
+</html>
